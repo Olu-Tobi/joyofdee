@@ -1,36 +1,36 @@
 export const PreWedding = [
   {
     id: 1,
-    image: "/preWed1.webp",
+    image: "/prewed1.webp",
   },
 
   {
     id: 2,
-    image: "/preWed15.webp",
+    image: "/prewed15.webp",
   },
 
   {
     id: 3,
-    image: "/preWed3.webp",
+    image: "/prewed3.webp",
   },
 
   {
     id: 4,
-    image: "/preWed4.webp",
+    image: "/prewed4.webp",
   },
 
   {
     id: 5,
-    image: "/preWed5.webp",
+    image: "/prewed5.webp",
   },
 
   // {
   //   id: 6,
-  //   image: "/PreWed-6.webp",
+  //   image: "/prewed6.webp",
   // },
 
   // {
   //   id: 7,
-  //   image: "/PreWed-7.webp",
+  //   image: "/prewed7.webp",
   // },
 ];
