@@ -29,8 +29,8 @@ export const PreWedding = [
     image: "/prewed6.webp",
   },
 
-  // {
-  //   id: 7,
-  //   image: "/prewed7.webp",
-  // },
+  {
+    id: 7,
+    image: "/prewed7.webp",
+  },
 ];
