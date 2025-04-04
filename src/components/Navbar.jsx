@@ -18,6 +18,10 @@ const Wrapper = styled.div`
   @media screen and (max-width: 1280px) {
     height: 3.8rem;
   }
+
+  @media screen and (max-width: 748px) {
+    width: 90%;
+  }
 `;
 const Logo = styled.img`
   width: 6rem;
@@ -138,7 +142,7 @@ const linkOption = [
   },
 
   {
-    url: "/",
+    url: "/gallery",
     link: "Gallery ",
   },
 
@@ -164,12 +168,10 @@ const Navbar = ({ option }) => {
             ))}
           </LiDiv>
 
-          <a href="/wishlist">
-            <Btn>
-              <GoGift />
-              Gift Us
-            </Btn>
-          </a>
+          <Btn>
+            <GoGift />
+            Gift Us
+          </Btn>
         </Ul>
 
         <MenuDiv>
@@ -197,17 +199,10 @@ const Navbar = ({ option }) => {
               ))}
             </LiDiv>
 
-            <a
-              href="/wishlist"
-              onClick={() => {
-                setClick(false);
-              }}
-            >
-              <Btn>
-                <GoGift style={{ fontSize: "1.1rem" }} />
-                Gift Us
-              </Btn>
-            </a>
+            <Btn>
+              <GoGift style={{ fontSize: "1.1rem" }} />
+              Gift Us
+            </Btn>
           </Ul2>
         )}
       </Wrapper>

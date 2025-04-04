@@ -103,7 +103,7 @@ const PreShow = () => {
     <Div>
       <Wrapper>
         <PictureDiv>
-          {PreWedding.map((item, i) => (
+          {PreWedding.slice(0, 7).map((item, i) => (
             <Img key={i} src={item.image} alt="image" />
           ))}
         </PictureDiv>
