@@ -133,11 +133,11 @@ const linkOption = [
     link: "Home",
   },
   {
-    url: "/",
+    url: "#details",
     link: "Wedding Details",
   },
   {
-    url: "/",
+    url: "#proposal",
     link: "The Proposal",
   },
 
@@ -147,12 +147,12 @@ const linkOption = [
   },
 
   {
-    url: "/",
+    url: "/meet-the-squad",
     link: "Meet our Squad",
   },
 ];
 
-const Navbar = ({ option }) => {
+const Navbar = () => {
   const [click, setClick] = useState(false);
 
   return (
@@ -167,11 +167,12 @@ const Navbar = ({ option }) => {
               </Li>
             ))}
           </LiDiv>
-
-          <Btn>
-            <GoGift />
-            Gift Us
-          </Btn>
+          <a href="#gift">
+            <Btn>
+              <GoGift />
+              Gift Us
+            </Btn>
+          </a>
         </Ul>
 
         <MenuDiv>
@@ -199,10 +200,12 @@ const Navbar = ({ option }) => {
               ))}
             </LiDiv>
 
-            <Btn>
-              <GoGift style={{ fontSize: "1.1rem" }} />
-              Gift Us
-            </Btn>
+            <a href="#gift">
+              <Btn>
+                <GoGift style={{ fontSize: "1.1rem" }} />
+                Gift Us
+              </Btn>
+            </a>
           </Ul2>
         )}
       </Wrapper>

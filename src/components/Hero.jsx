@@ -165,7 +165,9 @@ const Hero = () => {
               moment our forever begins. Until then, take some time to explore
               our website.{" "}
             </P>
-            <Btn> Show Us Love</Btn>
+            <a href="#gift" style={{ textDecoration: "none" }}>
+              <Btn> Show Us Love</Btn>
+            </a>
           </Inner>
         </Right>
       </Wrapper>

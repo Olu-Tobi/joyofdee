@@ -55,23 +55,23 @@ const Copy = styled.p`
 
 const linkOption = [
   {
-    url: "/",
+    url: "#gift",
     link: "Gift Us ",
   },
   {
-    url: "/",
+    url: "#reserve",
     link: "Reserve Your Seat",
   },
   {
-    url: "/",
+    url: "/gallery",
     link: "Gallery",
   },
   {
-    url: "/",
+    url: "#proposal",
     link: "Watch Proposal",
   },
   {
-    url: "/",
+    url: "/meet-the-squad",
     link: "Meet The Squad",
   },
 ];

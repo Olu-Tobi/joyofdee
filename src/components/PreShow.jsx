@@ -108,9 +108,11 @@ const PreShow = () => {
           ))}
         </PictureDiv>
       </Wrapper>
-      <BtnDiv>
-        <Btn>Explore Gallery</Btn>
-      </BtnDiv>
+      <a href="/gallery">
+        <BtnDiv>
+          <Btn>Explore Gallery</Btn>
+        </BtnDiv>
+      </a>
     </Div>
   );
 };

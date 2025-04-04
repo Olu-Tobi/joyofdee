@@ -133,7 +133,7 @@ const Proposal = () => {
   };
 
   return (
-    <Div>
+    <Div id="proposal">
       <Wrapper>
         <H2 className="ds-font">The Moment Ayomide Said YES!</H2>
         <ThumbDiv onClick={handlePlay}>

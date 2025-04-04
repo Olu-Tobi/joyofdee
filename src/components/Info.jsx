@@ -134,7 +134,7 @@ const Btn = styled.button`
 
 const Info = () => {
   return (
-    <Div id="celebrate">
+    <Div id="details">
       <Wrapper>
         <Top>
           <Det>

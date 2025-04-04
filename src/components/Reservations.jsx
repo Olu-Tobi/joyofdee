@@ -99,7 +99,7 @@ const FormBack = styled.img`
 
 const Reservations = () => {
   return (
-    <Div>
+    <Div id="reserve">
       <Wrapper>
         <Header>
           <BackImg src="/prewed11.webp" alt="image" />

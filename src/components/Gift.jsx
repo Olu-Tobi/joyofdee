@@ -119,7 +119,7 @@ const Btn = styled.button`
 
 const Gift = () => {
   return (
-    <Div>
+    <Div id="gift">
       <PBack src="/back.webp" alt="background" />
       <Wrapper>
         <Header>
