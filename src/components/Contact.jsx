@@ -88,12 +88,12 @@ const Contact = () => {
             <H3>RSVP</H3>
             <P>
               <MdPhone style={{ fontSize: "1rem" }} />
-              Ayomide Woleola — +234 813 150 8027
+              Woleola — +234 813 150 8027
             </P>
 
             <P>
               <MdPhone style={{ fontSize: "1rem" }} />
-              Daramola Tobi — +234 810 617 0405
+              Tobi — +234 810 617 0405
             </P>
             <P>
               <MdPhone style={{ fontSize: "1rem" }} />

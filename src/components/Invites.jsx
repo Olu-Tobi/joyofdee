@@ -120,7 +120,7 @@ const Invites = () => {
             us. 😞😭
           </P>
         </Right>
-        <Img src="/prewed1.webp" alt="image" />
+        <Img src="/prewed17.webp" alt="image" />
       </Wrapper>
       <DressCode>
         <Img src="/prewed7.webp" alt="image" />

@@ -65,7 +65,8 @@ const P = styled.p`
   width: 80%;
   text-align: center;
   z-index: 1;
-  @media screen and (max-width: 1280px) {
+  font-weight: 500;
+  @media screen and (max-width: 748px) {
     font-size: 0.9rem;
   }
 `;

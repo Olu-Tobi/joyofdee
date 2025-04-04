@@ -10,6 +10,7 @@ import Proposal from "../components/Proposal";
 import PreShow from "../components/PreShow";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Gift from "../components/Gift";
 
 const Home = () => {
   const [fontLoaded, setFontLoaded] = useState(false);
@@ -34,10 +35,11 @@ const Home = () => {
           <Navbar />
           <Hero />
           <TimerEle />
+          <Proposal />
           <Info />
           <Invites />
           <Reservations />
-          <Proposal />
+          <Gift />
           <PreShow />
           <Contact />
           <Footer />

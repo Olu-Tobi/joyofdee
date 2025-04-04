@@ -63,17 +63,17 @@ const Bg = styled.img`
   object-fit: cover;
 `;
 
-const Rack = styled.p`
+const Rack = styled.img`
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  font-size: 2.5rem;
-  font-weight: 300;
+  width: 6rem;
+  height: 3rem;
+  object-fit: cover;
+
   @media screen and (max-width: 1280px) {
-    font-size: 1.8rem;
   }
   @media screen and (max-width: 748px) {
-    font-size: 1.7rem;
     left: unset;
     right: 1rem;
   }
@@ -149,9 +149,8 @@ const Hero = () => {
       <Wrapper>
         <Left>
           <Bg src="/prewed5.webp" alt="hero" />
-          <Rack>
-            Ayomide <br />& David
-          </Rack>
+          <Rack src="/and.png" alt="img" />
+
           <Layer />
         </Left>
         <Right>

@@ -1,16 +1,38 @@
 import styled from "styled-components";
+const Div = styled.div`
+  position: relative;
+  padding: 4rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 
-const Div = styled.div``;
+  @media screen and (max-width: 748px) {
+    padding: 2rem 0;
+  }
+`;
+
+const PBack = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.2;
+  transform: rotateY(180deg);
+`;
+
 const Wrapper = styled.div`
   width: 100%;
   margin: 0 auto;
   display: flex;
 
-  align-items: flex-start;
-  height: 18rem;
+  align-items: center;
+  height: 20rem;
 
   @media screen and (max-width: 1280px) {
-    height: 16rem;
+    height: 18rem;
   }
 `;
 
@@ -98,6 +120,7 @@ const Btn = styled.button`
 const Gift = () => {
   return (
     <Div>
+      <PBack src="/back.webp" alt="background" />
       <Wrapper>
         <Header>
           <H2>Gift & Bless Us</H2>
