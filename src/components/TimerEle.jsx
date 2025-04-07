@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const Div = styled.div`
-  padding-bottom: 1rem;
   @media screen and (max-width: 1024px) {
   }
 
@@ -11,31 +10,17 @@ const Div = styled.div`
   }
 `;
 const Wrapper = styled.div`
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   background: #060a90;
-  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 5rem;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
+  color: #fff;
 
-  padding: 3rem 0;
-
-  @media screen and (max-width: 1280px) {
-    padding: 2.7rem 0;
-  }
-  @media screen and (max-width: 1024px) {
-    width: 90%;
-  }
+  height: 2.5rem;
   @media screen and (max-width: 748px) {
-    padding: 2.5rem 0;
-    border-radius: 2rem;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
   }
 `;
 
@@ -43,12 +28,9 @@ const Timer = styled.div`
   display: flex;
   align-items: center;
   gap: 4rem;
-  @media screen and (max-width: 1280px) {
-    gap: 3.4rem;
-  }
 
   @media screen and (max-width: 748px) {
-    gap: 0.7rem;
+    gap: 1.5rem;
   }
 `;
 const TimeDiv = styled.div`
@@ -56,18 +38,9 @@ const TimeDiv = styled.div`
   align-items: center;
   gap: 0.4rem;
   font-weight: 500;
-  @media screen and (max-width: 748px) {
-    gap: 0.2rem;
-  }
 `;
 const PTimer = styled.p`
-  font-size: 4rem;
-  @media screen and (max-width: 1280px) {
-    font-size: 2.8rem;
-  }
-  @media screen and (max-width: 748px) {
-    font-size: 1.5rem;
-  }
+  font-size: 1.2rem;
 `;
 const Pdays = styled.p``;
 

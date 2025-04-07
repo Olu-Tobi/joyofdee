@@ -16,7 +16,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  height: 25rem;
+  padding: 2rem 0;
 
   @media screen and (max-width: 748px) {
     height: unset;
@@ -36,7 +36,6 @@ const Top = styled.div`
   }
 
   @media screen and (max-width: 748px) {
-    margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -61,9 +60,10 @@ const Bottom = styled.div`
 const Det = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 1.3rem;
+  align-items: center;
+  gap: 2rem;
   width: 100%;
+
   @media screen and (max-width: 1280px) {
     gap: 1rem;
   }
@@ -73,17 +73,39 @@ const H2 = styled.h2`
   text-align: center;
   width: 100%;
   font-size: 2rem;
+  margin-bottom: 1rem;
   @media screen and (max-width: 1280px) {
     font-size: 1.7rem;
   }
 `;
 
+const Inner = styled.div`
+  background: #060a90;
+  color: #fff;
+  font-weight: 500;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 20rem;
+
+  @media screen and (max-width: 748px) {
+    width: 100%;
+    padding: 2rem 0;
+  }
+`;
+
 const PDiv = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.5rem;
+  @media screen and (max-width: 748px) {
+    width: 90%;
+  }
 `;
 const P = styled.p`
+  text-align: center;
   @media screen and (max-width: 1280px) {
     font-size: 0.9rem;
   }
@@ -92,6 +114,7 @@ const P = styled.p`
     width: 15rem;
 
     width: 100%;
+    font-size: 1rem;
   }
 `;
 
@@ -139,29 +162,33 @@ const Info = () => {
         <Top>
           <Det>
             <H2>Wedding Details & Schedule</H2>
-            <PDiv>
-              <SlCalender style={{ fontSize: "1.2rem" }} />
-              <P>Date: Saturday, June 21, 2025</P>
-            </PDiv>
+            <Inner>
+              <PDiv>
+                <SlCalender style={{ fontSize: "1.2rem" }} />
+                <P>Date: Saturday, June 21, 2025</P>
+              </PDiv>
 
-            <PDiv>
-              <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
+              <PDiv>
+                <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
 
-              <P>8:00AM - 9:30AM — Engagement Ceremony</P>
-            </PDiv>
+                <P>8:00AM - 9:30AM — Engagement Ceremony</P>
+              </PDiv>
+            </Inner>
+
+            <Inner>
+              <PDiv>
+                <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
+                <P>
+                  11:30AM -12:00 PM — Signing of Wedding Certificate & Priestly
+                  Blessing
+                </P>
+              </PDiv>
+              <PDiv>
+                <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
+                <P>12:00PM - 1:00PM — Praise Party</P>
+              </PDiv>
+            </Inner>
             <PDiv>
-              <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
-              <P>
-                11:30AM -12:00 PM — Signing of Wedding Certificate & Priestly
-                Blessing
-              </P>
-            </PDiv>
-            <PDiv>
-              <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
-              <P>12:00PM - 1:00PM — Praise Party</P>
-            </PDiv>
-            <PDiv>
-              <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
               <P>Reception follows immediately at the same venue</P>
             </PDiv>
           </Det>

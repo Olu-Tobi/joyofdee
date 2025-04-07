@@ -52,7 +52,7 @@ const Layer = styled.div`
   width: 100%;
   height: 100%;
   z-index: 0;
-  background: #ffffff30;
+  background: #00000060;
 `;
 const H2 = styled.h2`
   font-size: 2.5rem;
@@ -65,9 +65,9 @@ const P = styled.p`
   width: 80%;
   text-align: center;
   z-index: 1;
-  font-weight: 500;
+  font-weight: 600;
   @media screen and (max-width: 748px) {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 `;
 
@@ -102,7 +102,7 @@ const Reservations = () => {
     <Div id="reserve">
       <Wrapper>
         <Header>
-          <BackImg src="/prewed11.webp" alt="image" />
+          <BackImg src="/ev.jpg" alt="image" />
           <Layer />
           <H2>Reserve Your Seat</H2>
           <P>

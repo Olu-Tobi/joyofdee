@@ -43,6 +43,10 @@ const ThumbDiv = styled.div`
   width: 100%;
   height: 25rem;
   cursor: pointer;
+
+  @media screen and (max-width: 748px) {
+    height: 20rem;
+  }
 `;
 
 const Thumb = styled.img`

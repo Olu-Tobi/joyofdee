@@ -94,13 +94,16 @@ const Btn = styled.button`
 `;
 
 const Logo = styled.img`
-  width: 4rem;
-  height: 4rem;
+  width: 12rem;
+  height: 6rem;
   position: absolute;
   bottom: 2rem;
-  background: #fff;
+
   padding: 0.5rem;
   border-radius: 1rem;
+
+  @media screen and (max-width: 748px) {
+  }
 `;
 
 const A = styled.a`
@@ -118,7 +121,7 @@ const PreIntro = () => {
         <A href="#show">
           <Btn>VIEW GALLERY</Btn>
         </A>
-        <Logo src="/logo.webp" alt="logo" />
+        <Logo src="/and.png" alt="logo" />
       </Wrapper>
     </Div>
   );

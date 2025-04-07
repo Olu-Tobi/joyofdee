@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { GoGift } from "react-icons/go";
+
 const Div = styled.div`
   position: relative;
   padding: 4rem 0 2rem;
@@ -53,6 +55,9 @@ const Header = styled.div`
 const H2 = styled.h2`
   font-size: 2.5rem;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   @media screen and (max-width: 1280px) {
     font-size: 2rem;
   }
@@ -123,7 +128,9 @@ const Gift = () => {
       <PBack src="/back.webp" alt="background" />
       <Wrapper>
         <Header>
-          <H2>Gift & Bless Us</H2>
+          <H2>
+            <GoGift /> Gift & Bless Us
+          </H2>
           <P>
             Have we been a blessing to you and you’d like to celebrate us with a
             gift? We've made it super easy for you to show us some love. You can
@@ -151,9 +158,15 @@ const Gift = () => {
               Bank Transfer
             </Btn>
 
-            <Btn background="#060a90" color="#fff" back="#060a90">
-              Pay Online
-            </Btn>
+            <a
+              href="https://selar.com/showlove/joyofdee"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <Btn background="#060a90" color="#fff" back="#060a90">
+                Give Online
+              </Btn>
+            </a>
           </BtnDiv>
         </Header>
       </Wrapper>

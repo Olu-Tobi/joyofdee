@@ -32,9 +32,9 @@ const Home = () => {
     <>
       {fontLoaded && (
         <div>
+          <TimerEle />
           <Navbar />
           <Hero />
-          <TimerEle />
           <Proposal />
           <Info />
           <Invites />

@@ -79,10 +79,17 @@ const H2 = styled.h2`
   @media screen and (max-width: 1280px) {
     font-size: 2rem;
   }
+
+  @media screen and (max-width: 748px) {
+    text-align: center;
+  }
 `;
 const P = styled.p`
   @media screen and (max-width: 1280px) {
     font-size: 0.9rem;
+  }
+  @media screen and (max-width: 748px) {
+    text-align: center;
   }
 `;
 
@@ -108,7 +115,7 @@ const Invites = () => {
   return (
     <Div>
       <Bg src="/back.webp" alt="image" />
-      <Wrapper>
+      {/* <Wrapper>
         <Right>
           <H2>Strictly by Invitation</H2>
           <P>
@@ -121,7 +128,7 @@ const Invites = () => {
           </P>
         </Right>
         <Img src="/prewed17.webp" alt="image" />
-      </Wrapper>
+      </Wrapper> */}
       <DressCode>
         <Img src="/prewed7.webp" alt="image" />
         <Right>

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Div = styled.div`
   background: #060a90;
-  padding: 4.5rem 0 5rem;
+  padding: 3rem 0 5rem;
 `;
 const Wrapper = styled.div`
   width: 70%;
@@ -16,6 +16,12 @@ const Wrapper = styled.div`
   @media screen and (max-width: 1024px) {
     width: 90%;
   }
+`;
+
+const P = styled.p`
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 `;
 
 const Logo = styled.img`
@@ -34,7 +40,7 @@ const Nav = styled.div`
     gap: 1.3rem;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 748px) {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.7rem;
@@ -80,6 +86,7 @@ const Footer = () => {
   return (
     <Div>
       <Wrapper>
+        <P>We can't wait to see you!</P>
         <Logo src="/logo.webp" width={800} height={800} alt="logo" />
         <Nav>
           {linkOption.map((item, i) => (

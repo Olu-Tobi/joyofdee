@@ -63,7 +63,7 @@ const Ul2 = styled.ul`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
-    top: 3.8rem;
+    top: 6.3rem;
     right: 0;
     width: 18rem;
     height: 40rem;

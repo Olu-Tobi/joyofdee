@@ -108,9 +108,9 @@ const PreShow = () => {
           ))}
         </PictureDiv>
       </Wrapper>
-      <a href="/gallery">
+      <a href="/gallery" style={{ textDecoration: "none" }}>
         <BtnDiv>
-          <Btn>Explore Gallery</Btn>
+          <Btn>See All Photos</Btn>
         </BtnDiv>
       </a>
     </Div>

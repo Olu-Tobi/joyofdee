@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   @media screen and (max-width: 748px) {
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: unset;
   }
 `;
 const Left = styled.div`
@@ -29,6 +29,10 @@ const Left = styled.div`
   }
   @media screen and (max-width: 748px) {
     width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 const Right = styled.div`
@@ -51,6 +55,9 @@ const Layer = styled.div`
   height: 100%;
   z-index: -1;
   background: #ffffff20;
+  @media screen and (max-width: 748px) {
+    background: #ffffff30;
+  }
 `;
 
 const Bg = styled.img`
@@ -74,8 +81,9 @@ const Rack = styled.img`
   @media screen and (max-width: 1280px) {
   }
   @media screen and (max-width: 748px) {
-    left: unset;
-    right: 1rem;
+    position: unset;
+    width: 15rem;
+    height: 9rem;
   }
 `;
 
@@ -156,7 +164,7 @@ const Hero = () => {
         <Right>
           <Bg src="/newb.webp" alt="hero" />
           <Inner>
-            <H1>Welcome To Our Forever</H1>
+            <H1 className="ds-font">Welcome To Our Forever!</H1>
             {/* <Divider src="/elements.png" alt="element" /> */}
             <P>
               What started as a gentle whisper in my spirit to send her airtime

@@ -84,11 +84,11 @@ const Contact = () => {
       <Wrapper>
         <Top>
           <Det>
-            <H2>Contact Us</H2>
-            <H3>RSVP</H3>
+            <H2>RSVP</H2>
+
             <P>
               <MdPhone style={{ fontSize: "1rem" }} />
-              Woleola — +234 813 150 8027
+              Ayomide — +234 813 150 8027
             </P>
 
             <P>
@@ -103,7 +103,7 @@ const Contact = () => {
               <MdPhone style={{ fontSize: "1rem" }} />
               Omolara — +234 810 609 4482
             </P>
-            <H3> Email</H3>
+
             <P>
               <MdEmail style={{ fontSize: "1rem" }} />
               joyofdee@gmail.com
