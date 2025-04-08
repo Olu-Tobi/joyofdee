@@ -171,7 +171,7 @@ const Info = () => {
               <PDiv>
                 <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
 
-                <P>8:00AM - 9:30AM — Engagement Ceremony</P>
+                <P>7:45AM - 9:15AM — Engagement Ceremony</P>
               </PDiv>
             </Inner>
 
@@ -179,7 +179,7 @@ const Info = () => {
               <PDiv>
                 <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
                 <P>
-                  11:30AM -12:00 PM — Signing of Wedding Certificate & Priestly
+                  11AM - 11:30 PM — Signing of Wedding Certificate & Priestly
                   Blessing
                 </P>
               </PDiv>
