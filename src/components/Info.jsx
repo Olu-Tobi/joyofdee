@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { SlCalender } from "react-icons/sl";
+// import { SlCalender } from "react-icons/sl";
 import { MdOutlineAccessTime } from "react-icons/md";
 import { GoGift } from "react-icons/go";
 import { PiCashRegister } from "react-icons/pi";
@@ -163,10 +163,10 @@ const Info = () => {
           <Det>
             <H2>Wedding Details & Schedule</H2>
             <Inner>
-              <PDiv>
+              {/* <PDiv>
                 <SlCalender style={{ fontSize: "1.2rem" }} />
                 <P>Date: Saturday, June 21, 2025</P>
-              </PDiv>
+              </PDiv> */}
 
               <PDiv>
                 <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
@@ -183,6 +183,13 @@ const Info = () => {
                   Blessing
                 </P>
               </PDiv>
+              {/* <PDiv>
+                <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
+                <P>12:00PM - 1:00PM — Praise Party</P>
+              </PDiv> */}
+            </Inner>
+
+            <Inner>
               <PDiv>
                 <MdOutlineAccessTime style={{ fontSize: "1.2rem" }} />
                 <P>12:00PM - 1:00PM — Praise Party</P>
