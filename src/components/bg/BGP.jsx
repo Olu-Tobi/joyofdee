@@ -310,7 +310,7 @@ const PersonCard = styled.div`
 
 const StyledImage = styled.img`
   width: 100%;
-  height: 20rem;
+  height: 23rem;
   object-fit: cover;
   border-radius: 8px;
   @media (max-width: 480px) {
@@ -415,7 +415,6 @@ const Bgp = () => {
 
 export default Bgp;
 
-// Dummy data
 const bridesMaid = [
   {
     image: "/train/ladies/adedolapo.webp",
@@ -481,6 +480,11 @@ const groomsMen = [
     role: "Best Man",
   },
   { image: "/train/guys/tbass.webp", name: "Daramola Tobi", role: "Groomsman" },
+  {
+    image: "/train/guys/agboolapeter.webp",
+    name: "Agboola Peter",
+    role: "Groomsman",
+  },
   {
     image: "/train/guys/awe.webp",
     name: "Adewojo Oluwaferanmi",
