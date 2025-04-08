@@ -10,6 +10,7 @@ const Wrapper = styled.div`
 
   align-items: flex-start;
   height: 37rem;
+  overflow-x: hidden;
   @media screen and (max-width: 1280px) {
     height: 32rem;
   }
@@ -31,7 +32,7 @@ const Left = styled.div`
     width: 100%;
     height: 90vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 `;
@@ -68,6 +69,24 @@ const Bg = styled.img`
   height: 100%;
   z-index: -1;
   object-fit: cover;
+  @media screen and (max-width: 748px) {
+    display: none;
+  }
+`;
+
+const Bg2 = styled.img`
+  display: none;
+
+  @media screen and (max-width: 748px) {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
 `;
 
 const Rack = styled.img`
@@ -82,8 +101,10 @@ const Rack = styled.img`
   }
   @media screen and (max-width: 748px) {
     position: unset;
-    width: 15rem;
-    height: 9rem;
+    width: 12rem;
+    height: 7rem;
+    margin-top: 1rem;
+    object-fit: contain;
   }
 `;
 
@@ -157,9 +178,10 @@ const Hero = () => {
       <Wrapper>
         <Left>
           <Bg src="/prewed5.webp" alt="hero" />
+          <Bg2 src="/prewed51.png" alt="hero" />
           <Rack src="/and.png" alt="img" />
-
-          <Layer />
+          {/* 
+          <Layer /> */}
         </Left>
         <Right>
           <Bg src="/newb.webp" alt="hero" />

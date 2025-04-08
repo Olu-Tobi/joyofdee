@@ -97,7 +97,7 @@ const Logo = styled.img`
   width: 12rem;
   height: 6rem;
   position: absolute;
-  bottom: 2rem;
+  top: 2rem;
 
   padding: 0.5rem;
   border-radius: 1rem;
@@ -115,12 +115,12 @@ const PreIntro = () => {
     <Div>
       <Wrapper>
         <Img src="/prewed17.webp" alt="image" />
-        <Layer />
+        {/* <Layer />
         <H2>AYOMIDE & DAVID</H2>
         <P>SATURDAY, JUNE 21, 2025</P>
         <A href="#show">
           <Btn>VIEW GALLERY</Btn>
-        </A>
+        </A> */}
         <Logo src="/and.png" alt="logo" />
       </Wrapper>
     </Div>
