@@ -417,9 +417,14 @@ export default Bgp;
 
 const bridesMaid = [
   {
+    image: "/train/ladies/sava.webp",
+    name: "Agbato Oluwaseyi",
+    role: "Chief Bridesmaid",
+  },
+  {
     image: "/train/ladies/adedolapo.webp",
     name: "Adeyanju Adedolapo",
-    role: "Chief Bridesmaid",
+    role: "Best Lady",
   },
   {
     image: "/train/ladies/shalomshaba.webp",
@@ -466,11 +471,6 @@ const bridesMaid = [
     name: "Sambo Complete",
     role: "Bridesmaid",
   },
-  {
-    image: "/train/ladies/sava.webp",
-    name: "Agbato Oluwaseyi",
-    role: "Bridesmaid",
-  },
 ];
 
 const groomsMen = [
@@ -480,6 +480,17 @@ const groomsMen = [
     role: "Best Man",
   },
   { image: "/train/guys/tbass.webp", name: "Daramola Tobi", role: "Groomsman" },
+
+  {
+    image: "/train/guys/peter.webp",
+    name: "Olanrewaju Peter",
+    role: "Groomsman",
+  },
+  {
+    image: "/train/guys/segun.webp",
+    name: "Dada Oluwasegun",
+    role: "Groomsman",
+  },
   {
     image: "/train/guys/agboolapeter.webp",
     name: "Agboola Peter",
