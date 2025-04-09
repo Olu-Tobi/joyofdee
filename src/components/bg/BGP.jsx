@@ -479,6 +479,11 @@ const groomsMen = [
     name: "Olusegun Timileyin",
     role: "Best Man",
   },
+  {
+    image: "/train/guys/pay.webp",
+    name: "Woleola Ayomide",
+    role: "Groomsman",
+  },
   { image: "/train/guys/tbass.webp", name: "Daramola Tobi", role: "Groomsman" },
 
   {
