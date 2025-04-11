@@ -492,6 +492,11 @@ const groomsMen = [
     role: "Groomsman",
   },
   {
+    image: "/train/guys/godson.webp",
+    name: "Oyeleye Godson",
+    role: "Groomsman",
+  },
+  {
     image: "/train/guys/segun.webp",
     name: "Dada Oluwasegun",
     role: "Groomsman",
