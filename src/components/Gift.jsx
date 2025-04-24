@@ -351,6 +351,18 @@ const Gift = () => {
             </a>
           </BtnDiv>
 
+          <BtnDiv>
+            <a
+              href="https://docs.google.com/spreadsheets/d/1J5kmo9Ik4ZcyNsikhPpe-L0kXq8FWQ8cuL5nD3wKZnk/edit"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <Btn background="#060a90" color="#fff" back="#060a90">
+                View Wishlist
+              </Btn>
+            </a>
+          </BtnDiv>
+
           {isVisible && (
             <Popup handleClose={handleClose}>
               <PopDiv>
