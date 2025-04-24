@@ -92,7 +92,11 @@ const Download = styled.div`
   }
 `;
 
-const BtnDiv = styled.div``;
+const BtnDiv = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+`;
 const Btn = styled.button`
   display: flex;
   align-items: center;
@@ -102,6 +106,7 @@ const Btn = styled.button`
   border: 1px solid #fff;
   color: #fff;
   cursor: pointer;
+  font-family: inherit;
 
   width: 10rem;
   height: 2.8rem;
@@ -260,6 +265,9 @@ const PreShow2 = () => {
       <BtnDiv>
         <A href="#show">
           <Btn>BACK TO TOP</Btn>
+        </A>
+        <A href="https://youtube.com/shorts/um1aNu9sjPQ?si=fHD9ZTe4aqRC72X3">
+          <Btn>Watch Pre-Wedding Video</Btn>
         </A>
       </BtnDiv>
 
