@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { PreWedding } from "./Data";
-
 import JSZip from "jszip";
 import { saveAs } from "file-saver";
 import { BsDownload } from "react-icons/bs";
@@ -10,11 +9,12 @@ import {
   MdArrowForward,
 } from "react-icons/md"; // Arrows for navigation
 import { useState } from "react";
+import Prewedding from "./Prewedding";
 
 const Div = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   gap: 5rem;
   padding-bottom: 3rem;
   background: #0f0f0f;
@@ -95,7 +95,7 @@ const Download = styled.div`
 const BtnDiv = styled.div`
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
 `;
 const Btn = styled.button`
   display: flex;
@@ -262,12 +262,11 @@ const PreShow2 = () => {
           ))}
         </PictureDiv>
       </Wrapper>
+      <Prewedding />
+
       <BtnDiv>
         <A href="#show">
           <Btn>BACK TO TOP</Btn>
-        </A>
-        <A href="https://youtube.com/shorts/um1aNu9sjPQ?si=fHD9ZTe4aqRC72X3">
-          <Btn>Watch Pre-Wedding Video</Btn>
         </A>
       </BtnDiv>
 

@@ -91,7 +91,7 @@ const Btn = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.7rem;
+
   background: ${(props) => props.background};
   color: ${(props) => props.color};
   cursor: pointer;
@@ -357,8 +357,16 @@ const Gift = () => {
               target="_blank"
               style={{ textDecoration: "none" }}
             >
-              <Btn background="#060a90" color="#fff" back="#060a90">
-                View Wishlist
+              <Btn
+                background="linear-gradient(90deg,rgba(255, 255, 255, 1) 3%, rgba(6, 10, 144, 1) 100%)"
+                color="#000"
+                back="#000"
+              >
+                View{" "}
+                <span style={{ color: "#fff", marginLeft: "0.3rem" }}>
+                  {" "}
+                  Wishlist
+                </span>
               </Btn>
             </a>
           </BtnDiv>
