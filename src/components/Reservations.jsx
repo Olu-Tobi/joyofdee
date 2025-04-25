@@ -114,7 +114,7 @@ const Reservations = () => {
           </P>
           <P>
             NB : Please, ensure the phone number and email provided in the form
-            above are correct so you can receive further details about the
+            below are correct so you can receive further details about the
             event.{" "}
           </P>
         </Header>
